@@ -1,9 +1,9 @@
 ;;;; From Ingvar Mattsson <ingvar@hexapodia.net
 
-(defpackage #:net.hexapodia.image.pcf
+(defpackage #:net.hexapodia.font.pcf
   (:use #:cl)
   (:export #:read-font))
-(in-package :net.hexapodia.image.pcf)
+(in-package :net.hexapodia.font.pcf)
 
 (defconstant +PCF-PROPERTIES+         1)
 (defconstant +PCF-ACCELERATORS+       2)
